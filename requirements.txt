@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+tweepy
+pandas
+textblob
+python-dotenv
+pytest
+httpx
+pydantic
