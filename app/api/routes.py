@@ -11,6 +11,11 @@ def home():
         "message": "Twitter Sentiment Analyzer API"
     }
 
+@router.get("/health")
+def health_check():
+    return {
+        "status": "healthy"
+    }
 
 @router.get(
     "/sentiments",
